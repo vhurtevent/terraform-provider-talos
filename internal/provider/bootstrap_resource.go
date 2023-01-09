@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	"github.com/talos-systems/talos/pkg/machinery/api/machine"
-	"github.com/talos-systems/talos/pkg/machinery/constants"
+	"github.com/siderolabs/talos/pkg/machinery/api/machine"
+	"github.com/siderolabs/talos/pkg/machinery/constants"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
